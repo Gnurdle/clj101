@@ -28,6 +28,21 @@ Specifically I set these:
     "command": "calva.evaluateSelection"
 }
 
-The rest I don't care about, but these are crucial to the repl experience for me to be as short as possible
+The rest I don't care about, but these are crucial to the repl experience for me to be as short as possible.
+
+# Getting started
+fire up vscode with "vscode -n ."  Calva should wake and up and see you are doing clojure
+
+Jack in calva.  Not a key for that, use ctrl-shift-p and look for jack-in, and launch it.
+
+It will take a few seconds for things to get up.  You will then be prompted for a clojurescript repl type, just pick figwheel
+and let it barf over it. (we aren't doing that just yet.)
+
+If all that goes well, you should be in a live repl, and you should have a calva logo.  rearrange this to you liking 
+
+Navigate down the src/clj101/core.clj and edit it.
+
+Follow the instructions in there.
+
 
     
