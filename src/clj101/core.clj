@@ -1,4 +1,4 @@
 (ns clj101.core)
 
-(defn -main
+(defn -main []
   (println "hello world!"))

@@ -7,6 +7,5 @@
   :main ^:skip-aot clj101.core
   :target-path "target/%s"
   :plugins [[lein-ancient "0.6.15"]]
-  :source-paths ["src/clj"]
-  :profiles {:uberjar {:aot :all}}
-  :cljsbuild {})
+  :source-paths ["src"]
+  :profiles {:uberjar {:aot :all}})
